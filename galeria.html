@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dzwięki miasta</title>
+    <meta name="description" content="Pomoc do gry fabularnej Warhammer. Zawiera zbiór pomocnych dla Mistrza Gry opisów miejsc,
+    zachowań, postaci i otoczenia, bohaterów niezależnych. Podpowiedzi sprawią iż, opisy w naszych sesjach będą bardziej ciekawe.
+    Świat zacznie tętnić życiem: droga przez miasto, dzień targowy, wizyta w świątyni Shalyi czy nawet handel ze sprzedawcą guzików 
+    może się okazać wyjątkowy dzięki 'czemuś nietypowemu'. Wiele ciekawostek i krótkich opisów sprawią że miejsca nabiorą głębi
+    i życia. Ile razy szliśmy w dzień targowy i było 'pusto', albo w pełna karczma miejscowej ludności była całkiem martwa?>
+    To nigdy się nie powtórzy! Jednym czy dwoma detalami można zapełnić ulice, karczmę. Sprawić, że wizyta w każdym z tych miejsc 
+    może być niepowtarzalna.
+    
+    Wygląd:
+    
+    Górny pasek z osobnymi stronami: home, NPC, miejsca, obrazy - przyczepiony do górnej krawędzi;
+    
+    Pasek wyszukiwania tagów: po wpisywaniu frazy, ukrywa div'y w których tagach nie ma tej frazy;
+    
+    Lewy pasek nawigacyjny: alfabetycznie wypisane frazy - po kliknięciu przenosi do tego diva i tylko tego;
+
+    Główny kontent: podkreślony nagłówek, tekst, ewentualnie obrazek;
+
+    Stopka: stopka EvenGroup;
+
+    
+    ">
+
+
+    <link rel="stylesheet" href="style-galeria.css">
+    <script src="script.js"></script>
+
+
+
+</head>
+
+<body>
+
+    <div class="top-navbar">
+
+        <a href="index.html">HOME</a>
+        <a href="npc.html">NPC</a>
+        <a href="opisy-miejsc.html">Opisy</a>
+        <a href="galeria.html">Galeria</a>
+
+    </div>
+
+    <div class="wrapper">
+        <div class="content">
+
+            <h1>Galeria</h1>
+
+<input type="text" id="galerySearch" onkeyup="imgSearchFunctionInGalery()" placeholder="Szukaj obrazka">
+
+            <br>
+            <br>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mollis mi ac massa maximus, quis sodales
+                quam sagittis. Etiam pharetrurpis sodales, placerat libero non, suscipit neque.</p>
+
+            <div class="galery" id="galeryList">
+                <figure class="photo">
+                    <img src="images/kowal.jpg" alt="Kowal">
+                    <caption>Ralf Kowal - test</caption>
+                </figure>
+
+                <figure class="photo">
+                    <img src="images/market.jpg" alt="market">
+                    <caption>Plac kupiecki o poranku - test</caption>
+                </figure>
+
+                <figure class="photo">
+                    <img src="images/merchant.jpg" alt="merchant">
+                    <caption>Kristof - kupiec szarlatan - test</caption>
+                </figure>
+
+                <figure class="photo">
+                    <img src="images/shipyard.jpg" alt="Shipyard">
+                    <caption> Stocznia - test</caption>
+                </figure>
+
+                
+                <figure class="photo">
+                    <img src="images/shipyard.jpg" alt="Shipyard">
+                    <caption> Stocznia - test</caption>
+                </figure>
+
+                
+                <figure class="photo">
+                    <img src="images/shipyard.jpg" alt="Shipyard">
+                    <caption> Stocznia - test</caption>
+                </figure>
+
+                
+                <figure class="photo">
+                    <img src="images/shipyard.jpg" alt="Shipyard">
+                    <caption> Stocznia - test</caption>
+                </figure>
+
+                
+                <figure class="photo">
+                    <img src="images/shipyard.jpg" alt="Shipyard">
+                    <caption> Stocznia - test</caption>
+                </figure>
+
+                
+                <figure class="photo">
+                    <img src="images/shipyard.jpg" alt="Shipyard">
+                    <caption> Stocznia - test</caption>
+                </figure>
+            </div>
+        </div>
+
+        <div class="side">
+
+
+
+
+            <input type="text" id="listSearch" onkeyup="searchFunction()" placeholder="Szukaj.." title="Co paczymy?">
+
+            <ul id="listMenu">
+                <li><a href="#">Kowal</a></li>
+                <li><a href="#">Kupiec</a></li>
+                <li><a href="#">Statek</a></li>
+                <li><a href="targowisko.html">Targowisko</a></li>
+
+            </ul>
+        </div>
+    </div>
+
+
+    <div class="footer">EvenGroup 2020</div>
+</body>
+
+</html>
